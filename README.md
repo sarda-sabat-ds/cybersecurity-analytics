@@ -246,4 +246,5 @@ The model uses `class_weight='balanced'` to compensate for class imbalance. The 
 ### How does the dashboard talk to the API?
 The React frontend calls `fetch()` against relative paths like `/api/dashboard/summary`. Vite's dev server proxies those requests to `http://localhost:8000`. In production, configure nginx or a reverse proxy to do the same routing.
 #   c y b e r s e c u r i t y - a n a l y t i c s  
+ #   c y b e r s e c u r i t y - a n a l y t i c s _ 1  
  
