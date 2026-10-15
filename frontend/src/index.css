@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────────────────────────────────
+   Nature-inspired palette
+   Primary action  : emerald  (forest green)
+   Backgrounds     : stone / warm-gray (earth tones)
+   Accent          : teal     (deep water)
+   Info panels     : teal-50  (mist)
+   Dark mode base  : stone-950 / stone-900
+   ──────────────────────────────────────────────────────────────────── */
+
+html {
+  @apply transition-colors duration-200;
+}
+
+/* Light: warm parchment  |  Dark: deep stone */
+body {
+  @apply bg-stone-100 text-stone-800 min-h-screen transition-colors duration-200;
+}
+html.dark body {
+  @apply bg-stone-950 text-stone-100;
+}
+
+/* ── Card ──────────────────────────────────────────────────────────── */
+.card {
+  @apply
+    bg-white border border-stone-200 rounded-xl p-5 shadow-sm
+    dark:bg-stone-900 dark:border-stone-800 dark:shadow-none
+    transition-colors duration-200;
+}
+
+/* ── Severity badges ───────────────────────────────────────────────── */
+.badge-critical {
+  @apply bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300
+         text-xs px-2 py-0.5 rounded-full font-semibold;
+}
+.badge-high {
+  @apply bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300
+         text-xs px-2 py-0.5 rounded-full font-semibold;
+}
+.badge-medium {
+  @apply bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300
+         text-xs px-2 py-0.5 rounded-full font-semibold;
+}
+.badge-low {
+  @apply bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300
+         text-xs px-2 py-0.5 rounded-full font-semibold;
+}
+
+/* ── Shared input / select ─────────────────────────────────────────── */
+.field {
+  @apply
+    bg-white border border-stone-300 rounded-lg px-3 py-2
+    text-sm text-stone-800 placeholder-stone-400
+    focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500
+    dark:bg-stone-800 dark:border-stone-700 dark:text-stone-100 dark:placeholder-stone-500
+    transition-colors duration-150;
+}
+
+/* ── Table row ─────────────────────────────────────────────────────── */
+.trow {
+  @apply
+    border-b border-stone-100 hover:bg-stone-50/80
+    dark:border-stone-800/60 dark:hover:bg-stone-800/30
+    transition-colors;
+}
+
+/* ── Primary button ────────────────────────────────────────────────── */
+.btn-primary {
+  @apply
+    bg-emerald-700 hover:bg-emerald-800 active:bg-emerald-900
+    text-white font-medium rounded-lg transition-colors
+    disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+/* ── Info / note panel (replaces blue) ─────────────────────────────── */
+.panel-info {
+  @apply
+    bg-teal-50 border border-teal-200 text-teal-800
+    dark:bg-teal-900/20 dark:border-teal-800/40 dark:text-teal-300;
+}
+
+/* ── Mono / code tag ───────────────────────────────────────────────── */
+.tag-mono {
+  @apply
+    text-xs font-mono
+    text-teal-700 bg-teal-100
+    dark:text-teal-300 dark:bg-teal-900/30
+    px-2 py-0.5 rounded;
+}

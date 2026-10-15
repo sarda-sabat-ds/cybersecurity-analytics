@@ -1,0 +1,46 @@
+{
+  "categorical_features": [
+    "event_type",
+    "severity"
+  ],
+  "numerical_features": [
+    "failed_login_count",
+    "request_count",
+    "port"
+  ],
+  "feature_names": [
+    "event_type_account_lockout",
+    "event_type_brute_force",
+    "event_type_c2_communication",
+    "event_type_configuration_change",
+    "event_type_credential_dumping",
+    "event_type_data_exfiltration",
+    "event_type_dns_query",
+    "event_type_file_access",
+    "event_type_http_request",
+    "event_type_lateral_movement",
+    "event_type_login_success",
+    "event_type_malware_detected",
+    "event_type_port_scan",
+    "event_type_privilege_escalation",
+    "event_type_process_creation",
+    "event_type_ransomware_activity",
+    "event_type_registry_modification",
+    "event_type_sql_injection",
+    "event_type_vpn_connect",
+    "event_type_vpn_disconnect",
+    "event_type_xss_attempt",
+    "severity_critical",
+    "severity_high",
+    "severity_low",
+    "severity_medium",
+    "failed_login_count",
+    "request_count",
+    "port"
+  ],
+  "scale_features": false,
+  "label_classes": [
+    "normal",
+    "suspicious"
+  ]
+}
