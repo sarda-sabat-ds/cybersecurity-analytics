@@ -67,7 +67,7 @@ Replace the example image paths below with the exact filenames present in `cyber
       <p align="left">Provides a consolidated view of security events, alert statistics, incident summaries, and activity trends.</p>
     </td>
     <td width="50%" align="center">
-      <img src="cyber-security-screenshots/logs.png" alt="Security log management interface" width="100%">
+      <img src="cyber-security-screenshots/security-logs.png" alt="Security log management interface" width="100%">
       <strong>Security Log Management</strong>
       <p align="left">Displays ingested event records for structured inspection and analysis.</p>
     </td>
@@ -79,19 +79,19 @@ Replace the example image paths below with the exact filenames present in `cyber
       <p align="left">Presents potentially suspicious records identified by the machine learning and detection workflow.</p>
     </td>
     <td width="50%" align="center">
-      <img src="cyber-security-screenshots/incidents.png" alt="Incident correlation interface" width="100%">
+      <img src="cyber-security-screenshots/incident-corrrelation.png" alt="Incident correlation interface" width="100%">
       <strong>Incident Correlation</strong>
       <p align="left">Groups related alerts to help analysts investigate potentially connected security events.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="cyber-security-screenshots/analytics.png" alt="Security analytics visualizations" width="100%">
+      <img src="cyber-security-screenshots/threat-detection.png" alt="Security analytics visualizations" width="100%">
       <strong>Security Analytics</strong>
       <p align="left">Visualizes security activity, event distributions, and detection trends.</p>
     </td>
     <td width="50%" align="center">
-      <img src="cyber-security-screenshots/reports.png" alt="Security assessment reporting interface" width="100%">
+      <img src="cyber-security-screenshots/generated-report (1).png" alt="Security assessment reporting interface" width="100%">
       <strong>Security Assessment Reports</strong>
       <p align="left">Presents assessment summaries and report-generation functionality.</p>
     </td>
